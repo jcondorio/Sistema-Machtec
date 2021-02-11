@@ -17,9 +17,11 @@ int main()
 		public:
 			Administrador(String,String,String,String,int,String,String,int);
 			modificarAdmin();
+			darAltaAdmin();
+			darBajaAdmin();
 	}
 };
-administrador::Administrador(String _id_Admin,String _nombre,String _Apellido,String _Direccion,int _telefono,String _Email,String _Estado)
+Administrador::Administrador(String _id_Admin,String _nombre,String _Apellido,String _Direccion,int _telefono,String _Email,String _Estado)
 {
 	id_admin=_id_admin;
 	Nombre=_nombre;
@@ -30,10 +32,24 @@ administrador::Administrador(String _id_Admin,String _nombre,String _Apellido,St
 	Estado=_Estado;
 }
 
-void Persona::modificarAdmin()
+void Adminstrador::modificarAdmin()
 {
 	cout<<"nodificar administrador\n";
 	cout<<"-------------------------\n";
 	cout<<"datos del administrador\n";
 	cout<<"nombre : "<<Nombre;
+	cout<<"Apellido : "<<Apellido;
+	cout<<"Direccion : "<<Direccion;
+	cout<<"Telefono : "<<Telefono;
+	cout<<"Email : "<<Email;
+	cout<<"Estado : "<<Estado;
+	cout<<"Dni : "<<Dni;	
+}
+void Administrador::darAltaAdmin()
+{
+	
+}
+void Administrado::darBajaAdmin()
+{
+	
 }
