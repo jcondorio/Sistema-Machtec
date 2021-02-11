@@ -20,9 +20,12 @@ class Comprobante
 			int Cal_igv();
 };
 
-Persona::Persona(string numc, string f, string nombc, string nombp, int c, int st, int ct, int i)
+Persona::Persona(string numc, string f, string nombc, string nombp, int c)
 {
 	Nro_comprobante=numc;
 	Fecha=f;
-	
+	Nom_Cliente=nombc;
+	Nom_Producto=nombp;
+	Cantidad=c;
+
 }
