@@ -4,4 +4,5 @@ int main()
 {
 	cout<<"hola mundo";
 	cout<<"segunda prueba";
+	cout<<"edicion 2";
 }
