@@ -8,7 +8,7 @@ int main()
 		private:
 			String id_Admin;
 			String Nombre;
-			String	Apellido;
+			String Apellido;
 			String Direccion;
 			int	Telefono;
 			String Email;
@@ -21,5 +21,19 @@ int main()
 };
 administrador::Administrador(String _id_Admin,String _nombre,String _Apellido,String _Direccion,int _telefono,String _Email,String _Estado)
 {
-	id_admin=
+	id_admin=_id_admin;
+	Nombre=_nombre;
+	Apellido=_Apellido;
+	Direccion=_Direccion;
+	telefono=_telefono;
+	Email=_Email;
+	Estado=_Estado;
+}
+
+void Persona::modificarAdmin()
+{
+	cout<<"nodificar administrador\n";
+	cout<<"-------------------------\n";
+	cout<<"datos del administrador\n";
+	cout<<"nombre : "<<Nombre;
 }
