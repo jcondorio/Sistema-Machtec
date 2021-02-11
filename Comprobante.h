@@ -27,5 +27,7 @@ Persona::Persona(string numc, string f, string nombc, string nombp, int c)
 	Nom_Cliente=nombc;
 	Nom_Producto=nombp;
 	Cantidad=c;
-
+	int Subtotal_Precio;
+	Costo_Total=0;
+	igv=0;
 }
