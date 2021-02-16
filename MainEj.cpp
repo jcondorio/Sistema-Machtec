@@ -23,15 +23,15 @@ int main()
 	list_[8]= producto("",0,"","","","",0);
 	list_[9]= producto("",0,"","","","",0);	
 	
-	Comprobante c;
+	//Comprobante c;
+	string arrprod[10];
+	int canti=1;
+	int j=0;
 	for(int i=0; i<10; i++){
-				if(list_[i].Dev_IdProd()==list_[i+1].Dev_IdProd()){
-					c.
-			}
-			else{
-			}
+		string arrprod[i]=list_[i].Dev_NombProd();
+		}
 	}
-	c.Mostrar_Comprobante.
+	//c.Mostrar_Comprobante()
 	if(list_[0].Dev_NombProd()==list_[8].Dev_NombProd()){
 		cout<<"v"<<endl;
 	}
