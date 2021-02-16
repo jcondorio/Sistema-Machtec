@@ -1,33 +1,38 @@
-#include<iostream>
-#include<stdlib.h>
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+#include <conio.h>
+#include "producto.h"
 using namespace std;
 
-class Comprobante
-{
+class Comprobante {
 		private:
-			string Nro_comprobante;
-			string Fecha;
+			string fecha;
+			string Nro_Comprobante;
 			string Nom_Cliente;
-			string Nom_Producto;
-			int Cantidad;
-			int Subtotal_Precio;
-			int Costo_Total
-			int igv;
+			string List_Productos[10];
+			int Cant;
+			float CostoTotal;
+			float Subtotal;
+			float igv;
 		public:
-			Persona(string);
-			int Cal_CostoTotal();
-			int Cal_Subtotal();
-			int Cal_igv();
+			Comprobante();
+			Comprobante(string, string, string, string);
+			int Cal_Cantidad(producto);
+			void Mostrar_Comprobante(string);
+			float Cal_Total;
+			float Cal_Sub;
+			float Cal_igv;
 };
 
-Persona::Persona(string numc, string f, string nombc, string nombp, int c)
+Comprobante::Comprobante(string _fecha, string Nro_Comprobante_, string Nom_Cliente_, string List_Productos_)
 {
-	Nro_comprobante=numc;
-	Fecha=f;
-	Nom_Cliente=nombc;
-	Nom_Producto=nombp;
-	Cantidad=c;
-	int Subtotal_Precio;
-	Costo_Total=0;
-	igv=0;
+	int i;
+	fecha=_fecha;
+	Nro_Comprobante=Nro_Comprobante_;
+	Nom_Cliente=Nom_Cliente_;
+	List_Productos[i];
 }
+
+
+
