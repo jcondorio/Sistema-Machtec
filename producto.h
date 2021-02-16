@@ -25,6 +25,7 @@ class producto{
 		string Dev_Descripcion();
 		string Dev_Marca();
 		string Dev_Proveedor();
+		string Dev_IdProd();
 };
 producto::producto(){
 }
@@ -87,6 +88,10 @@ string producto::Dev_Marca(){
 
 string producto::Dev_Proveedor(){
 	return Proveedor;	
+}
+
+string producto::Dev_IdProd(){
+	return Id_Producto;
 }
 
 
