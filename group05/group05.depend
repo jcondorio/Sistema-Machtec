@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1614082092 source:c:\users\marco\documents\paralistas\group05\main.cpp
+	<iostream>
+	"USUARIO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+	"PEDIDO.h"
+	"EMPRESAMATCH.h"
+
+1614067988 source:c:\users\marco\documents\paralistas\group05\src\pedido.cpp
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+
+1614072937 c:\users\marco\documents\paralistas\group05\include\pedido.h
+	<string>
+	<iostream>
+
+1614077965 c:\users\marco\documents\paralistas\group05\include\administrador.h
+	"USUARIO.h"
+	<vector>
+	<string>
+
+1614077889 c:\users\marco\documents\paralistas\group05\include\usuario.h
+	<string>
+	<iostream>
+
+1614082495 c:\users\marco\documents\paralistas\group05\include\producto.h
+	<iostream>
+	<string>
+	<vector>
+
+1614076744 source:c:\users\marco\documents\paralistas\group05\src\usuario.cpp
+	"USUARIO.h"
+
+1614077965 source:c:\users\marco\documents\paralistas\group05\src\administrador.cpp
+	"ADMINISTRADOR.h"
+
+1614082092 source:c:\users\marco\documents\paralistas\group05\src\producto.cpp
+	"PRODUCTO.h"
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	<iostream>
+
+1614082246 source:c:\users\marco\documents\paralistas\group05\src\empresamatch.cpp
+	"EMPRESAMATCH.h"
+	"USUARIO.h"
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+	<iostream>
+	<conio.h>
+	<string>
+	<sstream>
+
+1614082246 c:\users\marco\documents\paralistas\group05\include\empresamatch.h
+	<iostream>
+	<vector>
+
