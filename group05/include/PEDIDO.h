@@ -9,15 +9,18 @@ class PRODUCTO;
 class PEDIDO
 {
     public:
-        PEDIDO(string,ADMINISTRADOR*,PRODUCTO*);
+        PEDIDO(string,ADMINISTRADOR*,PRODUCTO*,int,int);
         string getfechaPed();
         ADMINISTRADOR* getAdmin();
+        int getcantidadped();
         PRODUCTO* getProd();
         ~PEDIDO();
     private:
         string fechaPed;
         ADMINISTRADOR *admin;
         PRODUCTO *producto;
+        int cantidad;
+        int subtot;
 };
 
 #endif // PEDIDO_H

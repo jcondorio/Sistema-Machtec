@@ -8,7 +8,7 @@ class PEDIDO;
 class PRODUCTO
 {
     public:
-        PRODUCTO(string,string,string,int,int,string);
+        PRODUCTO(string,string,string,int,int,string,int);
         string getnomprod();
         string getdescripcion();
         string getmarca();
@@ -18,6 +18,10 @@ class PRODUCTO
         void mostrarproductos();
         void mostrarproductoscomprador();
         void aniadirPedido(PEDIDO*);
+        void setcantidadprod(int);
+        bool getCancelado();
+        int mostrarpedidosusu(string);
+        void setaumentarprod(int);
         ~PRODUCTO();
     private:
         string nomProd;
@@ -26,11 +30,11 @@ class PRODUCTO
         int precio;
         int cantidad;
         string proveedor;
+        bool estado;
         vector <PEDIDO*> listapedido;
 };
 
 #endif // PRODUCTO_H
-
 
 
 

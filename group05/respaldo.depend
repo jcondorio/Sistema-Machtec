@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1614542689 source:c:\users\marco\documents\aaaaa\respaldo\src\pedido.cpp
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+
+1614542689 c:\users\marco\documents\aaaaa\respaldo\include\pedido.h
+	<string>
+	<iostream>
+
+1614538021 c:\users\marco\documents\aaaaa\respaldo\include\administrador.h
+	"USUARIO.h"
+	<vector>
+	<string>
+
+1614489033 c:\users\marco\documents\aaaaa\respaldo\include\usuario.h
+	<string>
+	<iostream>
+
+1614565192 c:\users\marco\documents\aaaaa\respaldo\include\producto.h
+	<iostream>
+	<string>
+	<vector>
+
+1614489033 source:c:\users\marco\documents\aaaaa\respaldo\src\usuario.cpp
+	"USUARIO.h"
+
+1614502546 source:c:\users\marco\documents\aaaaa\respaldo\src\administrador.cpp
+	"ADMINISTRADOR.h"
+
+1614565119 source:c:\users\marco\documents\aaaaa\respaldo\src\producto.cpp
+	"PRODUCTO.h"
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	<iostream>
+
+1614567221 source:c:\users\marco\documents\aaaaa\respaldo\main.cpp
+	<iostream>
+	"USUARIO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+	"PEDIDO.h"
+	"EMPRESAMATCH.h"
+	"COMPROBANTE.h"
+	<conio.h>
+	<string>
+
+1614564788 c:\users\marco\documents\aaaaa\respaldo\include\empresamatch.h
+	"COMPROBANTE.h"
+	"PAGO.h"
+	<iostream>
+	<vector>
+
+1614565318 source:c:\users\marco\documents\aaaaa\respaldo\src\empresamatch.cpp
+	"EMPRESAMATCH.h"
+	"USUARIO.h"
+	"PEDIDO.h"
+	"ADMINISTRADOR.h"
+	"PRODUCTO.h"
+	"COMPROBANTE.h"
+	<iostream>
+	<conio.h>
+	<string>
+	<sstream>
+
+1614544438 c:\users\marco\documents\aaaaa\respaldo\include\comprobante.h
+	<vector>
+	<iostream>
+
+1614546261 source:c:\users\marco\documents\aaaaa\respaldo\src\comprobante.cpp
+	"COMPROBANTE.h"
+	"ADMINISTRADOR.h"
+	"EMPRESAMATCH.h"
+	<iostream>
+
+1614546292 source:c:\users\marco\documents\aaaaa\respaldo\src\pago.cpp
+	"PAGO.h"
+
+1614546280 c:\users\marco\documents\aaaaa\respaldo\include\pago.h
+	<vector>
+	<iostream>
+
+1614569854 source:c:\users\marco\documents\aaaaa\respaldo\src\servicio.cpp
+	"SERVICIO.h"
+
+1614569888 c:\users\marco\documents\aaaaa\respaldo\include\servicio.h
+	<iostream>
+
+1614569963 source:c:\users\marco\documents\aaaaa\respaldo\src\cliente.cpp
+	"CLIENTE.h"
+
+1614569963 c:\users\marco\documents\aaaaa\respaldo\include\cliente.h
+
